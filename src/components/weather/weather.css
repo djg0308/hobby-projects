@@ -1,0 +1,130 @@
+.weather-card {
+    z-index: 2;
+    height: 80vh;
+    width: 65vh;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0px 30px 0px 40px;
+    padding-bottom: 20px;
+}
+
+.return {
+    text-align: end;
+    padding-right: 5px;
+}
+
+.temperature {
+    font-weight: bolder;
+    font-size:x-large;
+    text-align: start;
+    z-index: 0;
+    margin-bottom: 15px;
+}
+.rain {
+    z-index: 1;
+    margin-top: -10px;
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.minAndMax {
+    margin-top: -15px;
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.hot {
+    color: red;
+}
+
+.cool {
+    color: blue;
+}
+
+.teReo {
+    border-radius: 20px 20px 20px 20px;
+    font-size: small;
+    background-color: cadetblue;
+    color: white;
+    margin-left: 40px;
+}
+
+.wind-speed {
+    z-index: 0;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.rh {
+    z-index: 1;
+    margin-top: -40px;
+    text-align: end;
+}
+
+.sunrise-sunset {
+    z-index: 0;
+    text-align: end;
+    margin-top: 10px;
+}
+
+.day-length {
+    z-index: 1;
+    text-align: start;
+    margin-top: -40px;
+}
+
+.city {
+    margin-top: -10px;
+}
+
+.update {
+    margin-top: -10px;
+    margin-bottom: -20px;
+}
+
+.pic-test {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    margin-left: 5px;
+   
+}
+
+.weather-test {
+    z-index: 0;
+    width: 35px;
+    height: 35px;
+}
+
+.secret-dev {
+    z-index: 1;
+    width: 50%;
+    margin-left: -430px;
+    margin-top: 100px;
+    margin-bottom: -190px;
+}
+
+.status {
+    z-index: 1;
+    margin-top: -10px;
+    padding-bottom: 5px;
+}
+
+.dev-btn {
+    margin-top: -40px;
+    margin-left: -280px;
+    z-index: 2;
+}
+
+.weather-title {
+    font-size: medium;
+    margin-left: 50px;
+}
+
+.pic-status {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: -5px;
+}
+
